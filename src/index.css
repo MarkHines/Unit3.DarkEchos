@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#details {
+  grid-column: 2, 1;
+  margin-left: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid red;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black
+}
+
+button {
+  width: 20em;
+  height: 2.5em;
+  font-size: 15px;
+}
